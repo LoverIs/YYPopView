@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  YYPopView
+//
+//  Created by yangli on 16/5/29.
+//  Copyright © 2016年 liyang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Masonry.h"
+
+#define KScreenBounds [UIScreen mainScreen].bounds
+#define kArrowHeight 10.f
+#define kArrowCurvature 3.f
+#define ROW_HEIGHT 40.f
+#define KpopViewW KScreenBounds.size.width * 0.25 - 15
+#define Margin 10
+#define KPurpleColor [UIColor colorWithRed:32 / 255.0 green:44 / 255.0 blue:134 / 255.0 alpha:1]
+
+#endif

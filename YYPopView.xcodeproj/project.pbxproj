@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FE14A091CFAF84E007E6155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A081CFAF84E007E6155 /* main.m */; };
+		8FE14A0C1CFAF84E007E6155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A0B1CFAF84E007E6155 /* AppDelegate.m */; };
+		8FE14A141CFAF84E007E6155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FE14A131CFAF84E007E6155 /* Assets.xcassets */; };
+		8FE14A171CFAF84E007E6155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE14A151CFAF84E007E6155 /* LaunchScreen.storyboard */; };
+		8FE14A201CFAF8B0007E6155 /* YYTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A1F1CFAF8B0007E6155 /* YYTestController.m */; };
+		8FE14A2A1CFAF932007E6155 /* YYPopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A231CFAF932007E6155 /* YYPopCell.m */; };
+		8FE14A2B1CFAF932007E6155 /* YYPopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A251CFAF932007E6155 /* YYPopModel.m */; };
+		8FE14A2C1CFAF932007E6155 /* YYPopModel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FE14A261CFAF932007E6155 /* YYPopModel.plist */; };
+		8FE14A2D1CFAF932007E6155 /* YYPopSearchModel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FE14A271CFAF932007E6155 /* YYPopSearchModel.plist */; };
+		8FE14A2E1CFAF932007E6155 /* YYPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A291CFAF932007E6155 /* YYPopView.m */; };
+		8FE14A491CFAFA1F007E6155 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A311CFAFA1F007E6155 /* MASCompositeConstraint.m */; };
+		8FE14A4A1CFAFA1F007E6155 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A341CFAFA1F007E6155 /* MASConstraint.m */; };
+		8FE14A4B1CFAFA1F007E6155 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A361CFAFA1F007E6155 /* MASConstraintMaker.m */; };
+		8FE14A4C1CFAFA1F007E6155 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A381CFAFA1F007E6155 /* MASLayoutConstraint.m */; };
+		8FE14A4D1CFAFA1F007E6155 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A3C1CFAFA1F007E6155 /* MASViewAttribute.m */; };
+		8FE14A4E1CFAFA1F007E6155 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A3E1CFAFA1F007E6155 /* MASViewConstraint.m */; };
+		8FE14A4F1CFAFA1F007E6155 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A401CFAFA1F007E6155 /* NSArray+MASAdditions.m */; };
+		8FE14A501CFAFA1F007E6155 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A431CFAFA1F007E6155 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		8FE14A511CFAFA1F007E6155 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A451CFAFA1F007E6155 /* View+MASAdditions.m */; };
+		8FE14A521CFAFA1F007E6155 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE14A481CFAFA1F007E6155 /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FE14A041CFAF84E007E6155 /* YYPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE14A081CFAF84E007E6155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FE14A0A1CFAF84E007E6155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FE14A0B1CFAF84E007E6155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FE14A131CFAF84E007E6155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FE14A161CFAF84E007E6155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FE14A181CFAF84E007E6155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE14A1E1CFAF8B0007E6155 /* YYTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTestController.h; sourceTree = "<group>"; };
+		8FE14A1F1CFAF8B0007E6155 /* YYTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTestController.m; sourceTree = "<group>"; };
+		8FE14A221CFAF932007E6155 /* YYPopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPopCell.h; sourceTree = "<group>"; };
+		8FE14A231CFAF932007E6155 /* YYPopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPopCell.m; sourceTree = "<group>"; };
+		8FE14A241CFAF932007E6155 /* YYPopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPopModel.h; sourceTree = "<group>"; };
+		8FE14A251CFAF932007E6155 /* YYPopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPopModel.m; sourceTree = "<group>"; };
+		8FE14A261CFAF932007E6155 /* YYPopModel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YYPopModel.plist; sourceTree = "<group>"; };
+		8FE14A271CFAF932007E6155 /* YYPopSearchModel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YYPopSearchModel.plist; sourceTree = "<group>"; };
+		8FE14A281CFAF932007E6155 /* YYPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPopView.h; sourceTree = "<group>"; };
+		8FE14A291CFAF932007E6155 /* YYPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPopView.m; sourceTree = "<group>"; };
+		8FE14A301CFAFA1F007E6155 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		8FE14A311CFAFA1F007E6155 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		8FE14A321CFAFA1F007E6155 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		8FE14A331CFAFA1F007E6155 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		8FE14A341CFAFA1F007E6155 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		8FE14A351CFAFA1F007E6155 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		8FE14A361CFAFA1F007E6155 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		8FE14A371CFAFA1F007E6155 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		8FE14A381CFAFA1F007E6155 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		8FE14A391CFAFA1F007E6155 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		8FE14A3A1CFAFA1F007E6155 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		8FE14A3B1CFAFA1F007E6155 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		8FE14A3C1CFAFA1F007E6155 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		8FE14A3D1CFAFA1F007E6155 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		8FE14A3E1CFAFA1F007E6155 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		8FE14A3F1CFAFA1F007E6155 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		8FE14A401CFAFA1F007E6155 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		8FE14A411CFAFA1F007E6155 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8FE14A421CFAFA1F007E6155 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		8FE14A431CFAFA1F007E6155 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		8FE14A441CFAFA1F007E6155 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		8FE14A451CFAFA1F007E6155 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		8FE14A461CFAFA1F007E6155 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8FE14A471CFAFA1F007E6155 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		8FE14A481CFAFA1F007E6155 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		8FE14A531CFAFAB1007E6155 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FE14A011CFAF84E007E6155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FE149FB1CFAF84E007E6155 = {
+			isa = PBXGroup;
+			children = (
+				8FE14A061CFAF84E007E6155 /* YYPopView */,
+				8FE14A051CFAF84E007E6155 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FE14A051CFAF84E007E6155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FE14A041CFAF84E007E6155 /* YYPopView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FE14A061CFAF84E007E6155 /* YYPopView */ = {
+			isa = PBXGroup;
+			children = (
+				8FE14A211CFAF932007E6155 /* PopView */,
+				8FE14A0A1CFAF84E007E6155 /* AppDelegate.h */,
+				8FE14A0B1CFAF84E007E6155 /* AppDelegate.m */,
+				8FE14A531CFAFAB1007E6155 /* PrefixHeader.pch */,
+				8FE14A1E1CFAF8B0007E6155 /* YYTestController.h */,
+				8FE14A1F1CFAF8B0007E6155 /* YYTestController.m */,
+				8FE14A131CFAF84E007E6155 /* Assets.xcassets */,
+				8FE14A151CFAF84E007E6155 /* LaunchScreen.storyboard */,
+				8FE14A181CFAF84E007E6155 /* Info.plist */,
+				8FE14A071CFAF84E007E6155 /* Supporting Files */,
+			);
+			path = YYPopView;
+			sourceTree = "<group>";
+		};
+		8FE14A071CFAF84E007E6155 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FE14A081CFAF84E007E6155 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FE14A211CFAF932007E6155 /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				8FE14A2F1CFAFA1F007E6155 /* Masonry */,
+				8FE14A221CFAF932007E6155 /* YYPopCell.h */,
+				8FE14A231CFAF932007E6155 /* YYPopCell.m */,
+				8FE14A241CFAF932007E6155 /* YYPopModel.h */,
+				8FE14A251CFAF932007E6155 /* YYPopModel.m */,
+				8FE14A261CFAF932007E6155 /* YYPopModel.plist */,
+				8FE14A271CFAF932007E6155 /* YYPopSearchModel.plist */,
+				8FE14A281CFAF932007E6155 /* YYPopView.h */,
+				8FE14A291CFAF932007E6155 /* YYPopView.m */,
+			);
+			path = PopView;
+			sourceTree = "<group>";
+		};
+		8FE14A2F1CFAFA1F007E6155 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				8FE14A301CFAFA1F007E6155 /* MASCompositeConstraint.h */,
+				8FE14A311CFAFA1F007E6155 /* MASCompositeConstraint.m */,
+				8FE14A321CFAFA1F007E6155 /* MASConstraint+Private.h */,
+				8FE14A331CFAFA1F007E6155 /* MASConstraint.h */,
+				8FE14A341CFAFA1F007E6155 /* MASConstraint.m */,
+				8FE14A351CFAFA1F007E6155 /* MASConstraintMaker.h */,
+				8FE14A361CFAFA1F007E6155 /* MASConstraintMaker.m */,
+				8FE14A371CFAFA1F007E6155 /* MASLayoutConstraint.h */,
+				8FE14A381CFAFA1F007E6155 /* MASLayoutConstraint.m */,
+				8FE14A391CFAFA1F007E6155 /* Masonry.h */,
+				8FE14A3A1CFAFA1F007E6155 /* MASUtilities.h */,
+				8FE14A3B1CFAFA1F007E6155 /* MASViewAttribute.h */,
+				8FE14A3C1CFAFA1F007E6155 /* MASViewAttribute.m */,
+				8FE14A3D1CFAFA1F007E6155 /* MASViewConstraint.h */,
+				8FE14A3E1CFAFA1F007E6155 /* MASViewConstraint.m */,
+				8FE14A3F1CFAFA1F007E6155 /* NSArray+MASAdditions.h */,
+				8FE14A401CFAFA1F007E6155 /* NSArray+MASAdditions.m */,
+				8FE14A411CFAFA1F007E6155 /* NSArray+MASShorthandAdditions.h */,
+				8FE14A421CFAFA1F007E6155 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				8FE14A431CFAFA1F007E6155 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				8FE14A441CFAFA1F007E6155 /* View+MASAdditions.h */,
+				8FE14A451CFAFA1F007E6155 /* View+MASAdditions.m */,
+				8FE14A461CFAFA1F007E6155 /* View+MASShorthandAdditions.h */,
+				8FE14A471CFAFA1F007E6155 /* ViewController+MASAdditions.h */,
+				8FE14A481CFAFA1F007E6155 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FE14A031CFAF84E007E6155 /* YYPopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE14A1B1CFAF84E007E6155 /* Build configuration list for PBXNativeTarget "YYPopView" */;
+			buildPhases = (
+				8FE14A001CFAF84E007E6155 /* Sources */,
+				8FE14A011CFAF84E007E6155 /* Frameworks */,
+				8FE14A021CFAF84E007E6155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYPopView;
+			productName = YYPopView;
+			productReference = 8FE14A041CFAF84E007E6155 /* YYPopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FE149FC1CFAF84E007E6155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = liyang;
+				TargetAttributes = {
+					8FE14A031CFAF84E007E6155 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R48B5F77XZ;
+					};
+				};
+			};
+			buildConfigurationList = 8FE149FF1CFAF84E007E6155 /* Build configuration list for PBXProject "YYPopView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FE149FB1CFAF84E007E6155;
+			productRefGroup = 8FE14A051CFAF84E007E6155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FE14A031CFAF84E007E6155 /* YYPopView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FE14A021CFAF84E007E6155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE14A2D1CFAF932007E6155 /* YYPopSearchModel.plist in Resources */,
+				8FE14A171CFAF84E007E6155 /* LaunchScreen.storyboard in Resources */,
+				8FE14A141CFAF84E007E6155 /* Assets.xcassets in Resources */,
+				8FE14A2C1CFAF932007E6155 /* YYPopModel.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FE14A001CFAF84E007E6155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE14A4A1CFAFA1F007E6155 /* MASConstraint.m in Sources */,
+				8FE14A4D1CFAFA1F007E6155 /* MASViewAttribute.m in Sources */,
+				8FE14A521CFAFA1F007E6155 /* ViewController+MASAdditions.m in Sources */,
+				8FE14A4F1CFAFA1F007E6155 /* NSArray+MASAdditions.m in Sources */,
+				8FE14A0C1CFAF84E007E6155 /* AppDelegate.m in Sources */,
+				8FE14A4E1CFAFA1F007E6155 /* MASViewConstraint.m in Sources */,
+				8FE14A4C1CFAFA1F007E6155 /* MASLayoutConstraint.m in Sources */,
+				8FE14A2B1CFAF932007E6155 /* YYPopModel.m in Sources */,
+				8FE14A2E1CFAF932007E6155 /* YYPopView.m in Sources */,
+				8FE14A511CFAFA1F007E6155 /* View+MASAdditions.m in Sources */,
+				8FE14A491CFAFA1F007E6155 /* MASCompositeConstraint.m in Sources */,
+				8FE14A501CFAFA1F007E6155 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				8FE14A4B1CFAFA1F007E6155 /* MASConstraintMaker.m in Sources */,
+				8FE14A201CFAF8B0007E6155 /* YYTestController.m in Sources */,
+				8FE14A091CFAF84E007E6155 /* main.m in Sources */,
+				8FE14A2A1CFAF932007E6155 /* YYPopCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FE14A151CFAF84E007E6155 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FE14A161CFAF84E007E6155 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FE14A191CFAF84E007E6155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FE14A1A1CFAF84E007E6155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FE14A1C1CFAF84E007E6155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ./YYPopView/PrefixHeader.pch;
+				INFOPLIST_FILE = YYPopView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs-ly0709.YYPopView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FE14A1D1CFAF84E007E6155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ./YYPopView/PrefixHeader.pch;
+				INFOPLIST_FILE = YYPopView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs-ly0709.YYPopView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FE149FF1CFAF84E007E6155 /* Build configuration list for PBXProject "YYPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE14A191CFAF84E007E6155 /* Debug */,
+				8FE14A1A1CFAF84E007E6155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE14A1B1CFAF84E007E6155 /* Build configuration list for PBXNativeTarget "YYPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE14A1C1CFAF84E007E6155 /* Debug */,
+				8FE14A1D1CFAF84E007E6155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FE149FC1CFAF84E007E6155 /* Project object */;
+}
